@@ -3,7 +3,7 @@ FROM alpine
 MAINTAINER Gnitry <gnitry@gmail.com>
 
 ENV AUTOSSH_ARGS="-M 0 -N -o StrictHostKeyChecking=no -o ServerAliveInterval=5 -o ServerAliveCountMax=1"
-ENV SSH_ARGS="-t -4 -L *:1234:127.0.0.1:1234 -p 1234 user@11.22.33.44"
+ENV SSH_ARGS="-t -4 -L *:1234:127.0.0.1:1234 -p 22 user@11.22.33.44"
 
 RUN apk add --update && apk add openssh-client && apk add autossh && rm -rf /var/lib/apt/lists/*
 
