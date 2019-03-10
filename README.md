@@ -22,7 +22,7 @@ services:
     image: gnitry/autossh-raw
     restart: always
     volumes:
-      - /home/dima/.ssh/id_rsa:/id_rsa
+      - /home/user/.ssh/id_rsa:/id_rsa
     expose:
       - 1111
       - 2222
