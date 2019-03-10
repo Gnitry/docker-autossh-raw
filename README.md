@@ -25,6 +25,7 @@ services:
       - /home/dima/.ssh/id_rsa:/id_rsa
     expose:
       - 1111
+      - 2222
     environment:
       - SSH_ARGS=-t -4 user@11.22.33.44 -L *:1111:127.0.0.1:1111 -L *:2222:127.0.0.1:2222
 ```
