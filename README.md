@@ -4,8 +4,8 @@ The main advantage over other implementations is possibility to set multiple por
 ### Configuration:
 
 * Mount private key to "/id_rsa"
-* Set AUTOSSH_ARGS environment variable (optional)
-* Set SSH_ARGS environment variable
+* Set AUTOSSH_ARGS environment variable. Optional. View Dockerfile or just run container to view default value.
+* Set SSH_ARGS environment variable. View Dockerfile or just run container to view default value.
 
 ### docker example:
 
