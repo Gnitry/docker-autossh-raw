@@ -1,5 +1,5 @@
 Lightweight AutoSSH Docker image with simple configuration.
-The main advantage over other implementations is possibility to set multiple ports forwarding.
+The main advantage over other implementations is possibility to set multiple port forwardings.
 
 ### Configuration:
 
